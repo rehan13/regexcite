@@ -67,3 +67,9 @@ str_split_one(x, pattern = ",", n = 2)
 y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 ```
+Use `my_add()` to add two numbers or add one number to 10
+```{r}
+my_add(5,6)
+
+```
+

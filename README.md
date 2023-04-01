@@ -73,3 +73,10 @@ y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 #> [1] "192" "168" "0"   "1"
 ```
+
+Use `my_add()` to add two numbers or add one number to 10
+
+``` r
+my_add(5,6)
+#> [1] 11
+```
